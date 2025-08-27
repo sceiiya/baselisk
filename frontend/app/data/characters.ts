@@ -96,3 +96,5 @@ export const generateCharacterName = (className: string): string => {
   
   return `${prefix} ${className} ${suffix}`;
 };
+
+

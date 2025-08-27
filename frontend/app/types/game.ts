@@ -53,3 +53,4 @@ export interface BattleQueueResponse {
   battleId?: string;
   message: string;
 }
+
