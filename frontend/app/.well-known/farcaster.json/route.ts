@@ -2,18 +2,10 @@ import { NextResponse } from 'next/server'
 
 export async function GET() {
   const manifest = {
-    frame: {
-      name: "Baselisk",
-      version: "1",
-      iconUrl: "https://baselisk.vercel.app/favicon.ico",
-      homeUrl: "https://baselisk.vercel.app",
-      imageUrl: "https://baselisk.vercel.app/image.png",
-      splashImageUrl: "https://baselisk.vercel.app/splash.png",
-      splashBackgroundColor: "#A100FF",
-      webhookUrl: "https://baselisk.vercel.app/api/webhook",
-      description: "Players mint randomized, on-chain character NFTs (Basilisks) with unique stat distributions. They form a team of three and compete in fully on-chain automated battles, with outcomes determined by verifiable smart contract logic.",
-      subtitle: "The On-Chain Arena",
-      primaryCategory: "games"
+    "accountAssociation": {
+      "header": "eyJmaWQiOjEwMTE2ODgsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhhMzQ5NzFDNTI5NDBBRTk4ZTVENjI3YzJFMjgyOGQwM2ZiZGI4MmFEIn0",
+      "payload": "eyJkb21haW4iOiJiYXNlbGlzay52ZXJjZWwuYXBwIn0",
+      "signature": "MHg4ZjA4OWVmNGI4Njc2MmI1MTIzYmFjZjBjZGNkYzYxMTU5MDRkNTAxN2U3YTQ0OTE2YzNhZDNhMTM4YTYxMjYyNTM2ODQ0MTYxMGU3ZGIyOGNmYmM3NWZhN2Y5NWRkNjBmY2E3YThmYmU3ODNkOTc0YWZiZDI5YmE4ZTAyYWE2NzFj"
     }
   }
 
