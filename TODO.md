@@ -98,138 +98,150 @@ Deliverables:
     Full battle simulation logic implemented in the backend.
 
 
-This is the configuration for the characters:
+This is the configuration for the characters and its stats:
 [
   {
-    "Class Name": "Brute",
-    "Main Attr.": "STR",
+    "CLASS_NAME": "Brute",
+    "MAIN_ATTR": "STR",
     "STR": 10,
     "AGI": 4,
     "SPD": 3,
     "RES": 5,
     "VIT": 3,
     "HP": 30,
-    "Description": "High damage, low speed glass cannon."
+    "DESCRIPTION": "High damage, low speed glass cannon.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeid6xf3jak3unybcxkxz4rg3arkn7nf6pqwb3nb66cz2tmlhafiale"
   },
   {
-    "Class Name": "Brawler",
-    "Main Attr.": "STR",
+    "CLASS_NAME": "Brawler",
+    "MAIN_ATTR": "STR",
     "STR": 8,
     "AGI": 5,
     "SPD": 4,
     "RES": 4,
     "VIT": 4,
     "HP": 40,
-    "Description": "A balanced strength-based attacker."
+    "DESCRIPTION": "A balanced strength-based attacker.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeibdbbdz2lpojtpy3gtfxbhe4livztydhvvxbj3ukicqnxz5cfmx3u"
   },
   {
-    "Class Name": "Assassin",
-    "Main Attr.": "AGI",
+    "CLASS_NAME": "Assassin",
+    "MAIN_ATTR": "AGI",
     "STR": 5,
     "AGI": 10,
     "SPD": 5,
     "RES": 3,
     "VIT": 2,
     "HP": 20,
-    "Description": "Extreme crit chance, very fragile."
+    "DESCRIPTION": "Extreme crit chance, very fragile.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeid6n66uuo6zbkct5jzjdthozj7jv5suoptxiwi3vtsucczt52kb2e"
   },
   {
-    "Class Name": "Duelist",
-    "Main Attr.": "AGI",
+    "CLASS_NAME": "Duelist",
+    "MAIN_ATTR": "AGI",
     "STR": 4,
     "AGI": 8,
     "SPD": 6,
     "RES": 4,
     "VIT": 3,
     "HP": 30,
-    "Description": "Agile fighter with good speed."
+    "DESCRIPTION": "Agile fighter with good speed.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeigsjlnma7cxsycnh4hcqq6cirdqlx2tdima6vdwkcgdjbde3nlu3y"
   },
   {
-    "Class Name": "Swiftblade",
-    "Main Attr.": "SPD",
+    "CLASS_NAME": "Swiftblade",
+    "MAIN_ATTR": "SPD",
     "STR": 5,
     "AGI": 6,
     "SPD": 9,
     "RES": 3,
     "VIT": 2,
     "HP": 20,
-    "Description": "Attacks first, applies debuffs."
+    "DESCRIPTION": "Attacks first, applies debuffs.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeidk2dxutve4uuanngyug2qnbrs2hr66g5axnpbmf6mbnnipvbrozm"
   },
   {
-    "Class Name": "Windrunner",
-    "Main Attr.": "SPD",
+    "CLASS_NAME": "Windrunner",
+    "MAIN_ATTR": "SPD",
     "STR": 4,
     "AGI": 5,
     "SPD": 8,
     "RES": 4,
     "VIT": 4,
     "HP": 40,
-    "Description": "Fast and evasive skirmisher."
+    "DESCRIPTION": "Fast and evasive skirmisher.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeihv7fw46lwjp77ztjn4v4cu7pemsadwnfqay6r4jx4wrksm73zlgm"
   },
   {
-    "Class Name": "Guardian",
-    "Main Attr.": "RES",
+    "CLASS_NAME": "Guardian",
+    "MAIN_ATTR": "RES",
     "STR": 4,
     "AGI": 3,
     "SPD": 3,
     "RES": 10,
     "VIT": 5,
     "HP": 50,
-    "Description": "Extreme damage sponge, very slow."
+    "DESCRIPTION": "Extreme damage sponge, very slow.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeidbt5ccb4mjvxalbpeautjbbtzqldnjkh4gx42upswljdy2kljo6i"
   },
   {
-    "Class Name": "Sentinel",
-    "Main Attr.": "RES",
+    "CLASS_NAME": "Sentinel",
+    "MAIN_ATTR": "RES",
     "STR": 3,
     "AGI": 4,
     "SPD": 4,
     "RES": 8,
     "VIT": 6,
     "HP": 60,
-    "Description": "Defensive wall with high HP."
+    "DESCRIPTION": "Defensive wall with high HP.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeifdjbygqmmpds4lvblldensdv7bdmzhh4uxaqo5myratcgy7a4m3i"
   },
   {
-    "Class Name": "Juggernaut",
-    "Main Attr.": "VIT",
+    "CLASS_NAME": "Juggernaut",
+    "MAIN_ATTR": "VIT",
     "STR": 6,
     "AGI": 2,
     "SPD": 2,
     "RES": 6,
     "VIT": 9,
     "HP": 90,
-    "Description": "High HP pool, decent damage/defense."
+    "DESCRIPTION": "High HP pool, decent damage/defense.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeihgpdtrhaxhqiq5xlt3zquez6oi3jj7ilalw2fb2ypqvykiagok2q"
   },
   {
-    "Class Name": "Titan",
-    "Main Attr.": "VIT",
+    "CLASS_NAME": "Titan",
+    "MAIN_ATTR": "VIT",
     "STR": 5,
     "AGI": 3,
     "SPD": 3,
     "RES": 5,
     "VIT": 9,
     "HP": 90,
-    "Description": "Pure health tank."
+    "DESCRIPTION": "Pure health tank.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeibmo4gzduxr4uedvhe6xvx4yc4gqz3lecw2fy5dal7jr7nfhtbrii"
   },
   {
-    "Class Name": "Battle Sage",
-    "Main Attr.": "STR/RES",
+    "CLASS_NAME": "Battle Sage",
+    "MAIN_ATTR": "STR/RES",
     "STR": 7,
     "AGI": 3,
     "SPD": 3,
     "RES": 7,
     "VIT": 5,
     "HP": 50,
-    "Description": "RARE Hybrid, offensive and defensive."
+    "DESCRIPTION": "RARE Hybrid, offensive and defensive.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeif2me6pewh22u3jjpry3vskgbfucpoodw63chp35rtllyxohpeifq"
   },
   {
-    "Class Name": "Shadow Weaver",
-    "Main Attr.": "AGI/SPD",
+    "CLASS_NAME": "Shadow Weaver",
+    "MAIN_ATTR": "AGI/SPD",
     "STR": 2,
     "AGI": 8,
     "SPD": 8,
     "RES": 2,
     "VIT": 5,
     "HP": 50,
-    "Description": "RARE Hybrid, extremely fast with high crit."
+    "DESCRIPTION": "RARE Hybrid, extremely fast with high crit.",
+    "IMAGE_URL": "https://blush-peculiar-fowl-927.mypinata.cloud/ipfs/bafybeihdags2usivqldtrc5lyoyjaz7lnofr246wvnr2zmyhqqcdk6qole"
   }
 ]
