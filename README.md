@@ -11,8 +11,6 @@ A web3 battle arena game prototype that simulates blockchain gaming mechanics. P
 
 ## 📖 Project Overview
 
-
-
 Baselisk is a Next.js-based web application that demonstrates how blockchain games could work, featuring:
 - **Character Minting System**: Generate unique characters with randomized stats and classes
 - **Team Building**: Create strategic 3-character teams for battle
@@ -189,3 +187,5 @@ This project is licensed under the MIT License.
 ---
 
 **Note**: This is a prototype that simulates blockchain game mechanics. The backend uses in-memory storage and won't persist across serverless function instances on Vercel.
+
+### Special Thanks to Tomeku, Base PH, Base PH NCR Regional for conducting Base Build and giving us awareness and teaching us on how to deploy a mini app project in Farcaster
